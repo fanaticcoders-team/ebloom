@@ -1,0 +1,18 @@
+<?php
+
+    return [
+        'ΣΥΣΤΗΜΑ ΕΠΙΒΡΑΒΕΥΣΗΣ' => 'REWARD SYSTEM ',
+        'Το σύστημα επιβράβευσης αποτελεί μία υπηρεσία της πλατφόρμας που παρέχεται μόνον στους εγγεγραμμένους χρήστες, οι οποίοι πραγματοποιούν τις online αγορές τους μέσω της πλατφόρμας.' => 'The reward system is a service of the platform provided only to registered users who make their online purchases through the platform.',
+        'Με κάθε αγορά ο εγγεγραμμένος χρήστης αποκτά ίσο αριθμό πόντων με έκαστο ευρώ που κατέβαλε για την παραγγελία, αφαιρουμένου του κόστους των μεταφορικών. Η πίστωση των πόντων λαμβάνει χώρα αυτόματα στο λογαριασμό του χρήστη με την ολοκλήρωση της ηλεκτρονικής αγοράς και οι οποίοι μπορούν να εξαργυρωθούν στην αμέσως επόμενη παραγγελία. Σημειώνεται ότι ακόμη και για την παραγγελία που εξαργυρώνονται πόντοι, πιστώνονται οι αντίστοιχοι με το ποσό της παραγγελίας.' => "With each purchase the registered user acquires an equal number of points for each euro paid for the order, minus the cost of shipping. The points are automatically credited to the user's account upon completion of the online purchase and can be redeemed on the next order. It is noted that even for the order where points are redeemed, the corresponding points are credited with the amount of the order.",
+        'Οι πόντοι που διαθέτει έκαστος χρήσης γνωστοποιούνται με την αποστολή ενημερωτικού email από την πλατφόρμα και είναι διαθέσιμοι από την αμέσως επόμενη παραγγελία. Περαιτέρω, κατά το στάδιο πριν την ολοκλήρωση της παραγγελίας υπάρχει αντίστοιχη ενημέρωση για το ύψος των διαθέσιμων πόντων προς εξαργύρωση, παρεχόμενης αναλόγως της δυνατότητας να εξαργυρωθούν.' => 'The points that each user has are made known by the platform by sending an informative email and are available from the next order. Furthermore, at the stage before the completion of the order there is a corresponding notification of the amount of points available for redemption, with the possibility of redeeming them being provided accordingly.',
+        'Σημειώνεται ότι η εξαργύρωση των πόντων μπορεί να λάβει χώρα μετά τη συμπλήρωση  των εκατό (100) πρώτων πόντων εκάστου χρήστη. Για κάθε παραγγελία το επιτρεπτό όριο εξαργύρωσης είναι εκατό (100) πόντοι.' => 'It is noted that the redemption of the points can be carried out after the accumulation of the first one hundred (100) points of each user. The allowed redemption limit for each order is one hundred (100) points.',
+        'Κάθε εκατό (100) πόντοι αντιστοιχούν σε πέντε (5) ευρώ, ήτοι με κάθε εξαργύρωση εκατό πόντων λαμβάνετε έκπτωση ποσού πέντε ευρώ.' => 'Each one hundred (100) points are equivalent to five (5) euro, i.e. with each redemption of one hundred points you receive a five euro discount.',
+        'Στην περίπτωση που μία παραγγελία ακυρωθεί ή επιστραφεί, δεν λαμβάνει χώρα πίστωση πόντων.' => 'In the event that an order is cancelled or returned, no points will be credited.',
+        'Οι πόντοι είναι προσωπικοί και πιστώνονται στο λογαριασμό κάθε χρήστη. Γι’ αυτό το λόγο δεν μπορούν να μεταβιβασθούν ή πιστωθούν σε έτερο χρήστη.' => "The points are personal and credited to each user's account. For this reason, they cannot be transferred or credited to another user.",
+        'Με την εγγραφή στην πλατφόρμα και τη δημιουργία λογαριασμού χρήστη λαμβάνετε αυτόματα είκοσι (20) πόντους ως δώρο.' => 'Upon subscribing to the platform and creating a user account, you automatically receive twenty (20) points as a gift.',
+        'Το παρόν σύστημα δύναται να τροποποιηθεί οποτεδήποτε χωρίς προηγούμενη ενημέρωση του χρήστη.' => 'The present system may be modified at any time without prior notice to the user.',
+        '' => '',
+        
+    ];
+
+?>

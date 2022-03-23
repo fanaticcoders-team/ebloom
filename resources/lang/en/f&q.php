@@ -1,0 +1,29 @@
+<?php
+    return [
+        'Πως κάνω παραγγελία από την ebloom;'=>'How do I place an order with ebloom?',
+        'Η διαδικασία της παραγγελίας από την ebloom είναι πολύ απλή, εύκολη και γρήγορη!'=>'The process of ordering from ebloom is very simple, easy and fast!',
+        'Ξεκινάτε κάνοντας μια αναζήτηση στην πλατφόρμα της ebloom για ανθοπωλεία που βρίσκονται κοντά σας.'=>'You start by searching the ebloom platform for flowershops near you.',
+        'Αφού ολοκληρωθεί, επιλέγετε τα προϊόντα που προτιμάτε (λουλούδια, ανθοδέσμες, συνθέσεις, φυτά κλπ.) από το κατάστημα που σας εξυπηρετεί.'=>'Once completed, you choose the products you prefer (flowers, bouquets, arrangements, plants, etc.) from the shop that is convenient for you.',
+        'Τέλος, καταχωρείτε την παραγγελία σας.'=>'Finally, you place your order.',
+        'Σε πόση ώρα θα φτάσει η παραγγελία μου στο προορισμό της;'=>'How long will it take for my order to reach its destination?',
+        'Για κάθε παραγγελία που κάνετε είναι διαθέσιμη η διαδικασία επιλογής των ωρών της παράδοσης, την οποία θα δείτε στην οθόνη σας. Γενικότερα, ο μέρος όρος του χρόνου παράδοσης των παραγγελιών, στις περισσότερες περιοχές, υπολογίζεται στις δύο ώρες.'=>'For each order you place, the process of selecting the hours of delivery is available, which you will see on your screen. In general, the average delivery time of orders, in most regions, is estimated at two hours.',
+        'Από ποιες τοποθεσίες μπορώ να κάνω παραγγελία;'=>'From which locations can I place an order?',
+        'Μέσω της ebloom μπορείτε να κάνετε παραγγελία από οποιοδήποτε σημείο του πλανήτη, Ελλάδα ή εξωτερικό. Ακόμη κι αν δεν βρίσκεστε στη χώρα λοιπόν, με μερικά απλά βήματα, μπορείτε να στείλετε λουλούδια σε όλη την Ελλάδα εύκολα και γρήγορα!'=>'Through ebloom you can place an order from anywhere in the world, Greece or abroad. So even if you are not in the country, with a few simple steps, you can send flowers all over Greece quickly and easily!',
+        'Σε ποιες τοποθεσίες μπορώ να στείλω λουλούδια;'=>'To which locations can I send flowers?',
+        'Η ebloom, μέσω του δικτύου συνεργαζόμενων ανθοπωλείων που διαθέτει, σας δίνει τη δυνατότητα να στέλνετε λουλούδια σχεδόν σε όλη την Ελλάδα. Οι περιοχές στις οποίες είμαστε πιο ενεργοί είναι η Αθήνα, η Θεσσαλονίκη και η Λάρισα, καθώς όμως το δίκτυό μας αυξάνεται καθημερινά, με την πάροδο του χρόνου θα μπορούμε να καλύπτουμε ολοένα και περισσότερες τοποθεσίες.'=>'Ebloom, through its network of partner flowershops, allows you to send flowers almost anywhere in Greece. The areas we are most active in are Athens, Thessaloniki and Larissa, but as our network grows daily, over time we will be able to cover more and more locations.',
+        'Τι μπορώ να παραγγείλω από την ebloom;'=>'What can I order from ebloom?',
+        'Στην ebloom υπάρχει ένα μεγάλο δίκτυο ανθοπωλείων από πολλές περιοχές της Ελλάδας. Συνεπώς, θα βρείτε μια τεράστια ποικιλία από άνθη, ανθοδέσμες, φυτά, συνθέσεις λουλουδιών, αλλά και γενικότερα ανθοκομικά προϊόντα.  Το μόνο που έχετε να κάνετε είναι να επιλέξετε!'=>'At ebloom there is a large network of flowershops from many regions of Greece. Therefore, you will find a huge variety of flowers, bouquets, plants, flower arrangements and generally floricultural products. All you have to do is choose!',
+        'Είναι απαραίτητο να γνωρίζω τη διεύθυνση του ατόμου στο οποίο θέλω να στείλω λουλούδια;'=>'Is it necessary to know the address of the person I want to send flowers to?',
+        'Όχι απαραίτητα! Η ebloom σας δίνει τη δυνατότητα να στείλετε την παραγγελία σας ακόμη κι αν δεν γνωρίζετε την ακριβή διεύθυνση του παραλήπτη. Αφού κάνετε μια αναζήτηση για ανθοπωλεία που βρίσκονται στην περιοχή του παραλήπτη και επιλέξετε την παραγγελία, το μόνο που χρειάζεται είναι να μας δώσετε κάποια στοιχεία, όπως ένα όνομα κι ένα τηλέφωνο. Στη συνέχεια, αναλαμβάνουμε εμείς την επικοινωνία με το άτομο που θα παραλάβει και την αποστολή.'=>"Not necessarily! Ebloom allows you to send your order even if you don't know the exact address of the recipient. After you do a search for flowershops located in the recipient's area and select the order, all you need to do is provide us with some information, such as a name and a phone number. We then handle the contact with the person who will be receiving the order.",
+        'Πως γίνεται η πληρωμή;'=>'What is the payment procedure?',
+        'Η πληρωμή για τις παραγγελίες μέσω της ebloom πραγματοποιείται με πιστωτική/ χρεωστική κάρτα ή με τη χρήση των υπηρεσιών Viva Wallet.'=>'Payment for orders through ebloom is made by credit/debit card or by using Viva Wallet services.',
+        'Είναι ασφαλής η πληρωμή;'=>'Is the payment secure?',
+        'Στόχος μας είναι όλες οι συναλλαγές σας μέσω της ebloom να είναι γρήγορες, εύκολες και, πάνω απ’ όλα, απολύτως ασφαλείς. Εγγυούμαστε προσωπικά για την ασφάλεια των συναλλαγών μας και είμαστε στη διάθεσή σας για οποιεσδήποτε περεταίρω ερωτήσεις ή διευκρινίσεις.'=>'Our goal is for all your transactions through ebloom to be quick, easy and, above all, completely safe. We personally guarantee the security of our transactions and are at your disposal for any further questions or clarifications.',
+        'Υπάρχει εφαρμογή για τις υπηρεσίες της ebloom;'=>'Is there an app for the ebloom services?',
+        'Στην ebloom γνωρίζουμε πόσο σημαντικές είναι οι εύκολες και γρήγορες διαδικασίες, καθώς και η διαθεσιμότητα των υπηρεσιών μας μέσω κινητού τηλεφώνου. Συνεπώς, εργαζόμαστε αυτή τη στιγμή και η εφαρμογή της ebloom θα είναι σύντομα κοντά σας.'=>'At ebloom we know how important easy and fast procedures are, as well as the availability of our services via mobile phone. Therefore, we are currently in the process of developing an ebloom app and it will be available to you soon.',
+    
+    
+    ];
+
+
+?>

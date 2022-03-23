@@ -1,0 +1,470 @@
+.d-flex {
+    display: flex !important;
+}
+.flex-column {
+    flex-direction: column !important;
+}
+.justify-content-between {
+    justify-content: space-between !important;
+}
+.px-md-5 {
+    padding-right: 1rem !important;
+}
+.bg-white {
+    background-color: #fff !important;
+}
+.modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid #e9ecef;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+.modal-header .close {
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+.pt-7,
+.py-7 {
+    padding-top: 1.5rem !important;
+}
+.pb-0,
+.py-0 {
+    padding-bottom: 0 !important;
+}
+.pb-0,
+.py-0 {
+    padding-bottom: 0 !important;
+}
+.mx-auto {
+    margin-right: auto !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+}
+.position-absolute {
+    position: absolute !important;
+}
+.w-75 {
+    width: 75% !important;
+}
+.text-center {
+    text-align: center !important;
+}
+.text-muted {
+    color: #9b9b9b !important;
+}
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+.modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+.modal-body:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.pt-md-0,
+.py-md-0 {
+    padding-top: 0 !important;
+}
+.modal-address-form {
+    min-height: 275px;
+}
+@media (max-width: 767.98px) {
+    .modal-address-form
+        .address-search
+        .address-form-component-list-item[data-pos="3"],
+    .modal-address-form
+        .address-search
+        .address-form-component-list-item[data-pos="4"],
+    .modal-address-form
+        .address-search
+        .address-form-component-list-item[data-pos="5"] {
+        display: none !important;
+    }
+}
+.pb-8,
+.py-8 {
+    padding-bottom: 1.75rem !important;
+}
+#address-form-component .address-form-component-search-input {
+    max-width: 100%;
+    opacity: 0;
+}
+#address-form-component.user-address-ready
+    .address-form-component-search-input {
+    opacity: 1;
+}
+#address-form-component .address-form-component-search-input[readonly] {
+    background: transparent;
+}
+#address-form-component .address-form-component-list:empty {
+    display: none !important;
+}
+#address-form-component .address-form-component-search-input:focus {
+    box-shadow: none;
+}
+#address-form-component .address-form-component-list {
+    top: 56px;
+    left: 0;
+    max-height: 325px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    display: none;
+    z-index: 1;
+}
+#address-form-component .address-form-component-list::-webkit-scrollbar {
+    display: none;
+}
+@media (min-width: 768px) {
+    #address-form-component .address-form-component-list {
+        max-height: 365px;
+    }
+}
+@media (min-width: 992px) {
+    #address-form-component .address-form-component-list {
+        top: 62px;
+    }
+}
+#address-form-component
+    .address-form-component-list:hover
+    .address-form-component-list-item {
+    background-color: inherit;
+}
+#address-form-component
+    .address-form-component-list
+    .address-form-component-list-item.selected {
+    background-color: #f7f7f7;
+    color: #333 !important;
+    cursor: pointer;
+}
+#address-form-component .address-form-component-icon-loading {
+    display: none;
+}
+#address-form-component[data-is-loading="true"]
+    .address-form-component-icon-loading {
+    display: flex;
+}
+#address-form-component[data-is-loading="true"]
+    .address-form-component-scope-icon:before {
+    display: none;
+}
+#address-form-component .address-form-component-scope-friendly-name:before {
+    content: attr(data-friendly-name);
+    display: block;
+    color: #3f7ed8;
+}
+#address-form-component .address-form-component-scope-icon:before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-image: url(../../site-assets/img/icons/address-component/search.png);
+    margin-right: 0.25rem;
+}
+#address-form-component
+    .address-form-component-scope-icon[data-scope="business_discounts"]:before {
+    display: block;
+    background-size: 80%;
+    background-image: url(../../site-assets/img/icons/address-component/business-icon.png);
+}
+#address-form-component
+    .address-form-component-scope-icon[data-scope="personal"]:before {
+    display: block;
+    background-image: url(../../site-assets/img/icons/address-component/map-pin.png);
+}
+#address-form-component
+    .address-form-component-list
+    .address-form-component-list-item:not(.selected)
+    .address-form-component-scope-icon[data-scope="personal"]:before {
+    opacity: 0.35;
+}
+#address-form-component .address-form-component-icon-loading {
+    width: 24px;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 24px;
+    margin: auto 0.25rem auto 0;
+}
+#address-form-component.address-search .address-form-component-list-arrow {
+    display: none;
+}
+.address-form-component-scope-friendly-name {
+    flex-shrink: 0;
+}
+.address-form-component-list-item .address-form-component-scope-friendly-name {
+    display: inline-block;
+}
+.address-form-component-list-item
+    .address-form-component-scope-friendly-name[data-friendly-name]:not([data-friendly-name=""]) {
+    margin-right: 0.5rem;
+}
+.address-form-component-geolocation-btn {
+    display: block;
+}
+.address-form-component-clear-btn,
+[data-input-empty="false"] .address-form-component-geolocation-btn {
+    display: none;
+}
+[data-input-empty="false"] .address-form-component-clear-btn {
+    display: block;
+}
+.address-search .address-form-component-list-item-new-address {
+    display: none;
+}
+.address-form-component-back-to-saved {
+    cursor: pointer;
+    opacity: 0;
+}
+#address-form-component.user-address-ready
+    .address-form-component-back-to-saved {
+    opacity: 1;
+}
+.address-search.add-new-address .address-form-component-back-to-saved,
+.address-search.user-address-empty .address-form-component-back-to-saved {
+    display: none;
+}
+.address-form-component-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    display: none;
+}
+#address-form-component.address-form-component-list-open
+    .address-form-component-overlay {
+    display: block;
+    pointer-events: auto;
+}
+#address-form-component.address-search .btn-primary,
+#address-form-component.address-search .button-primary,
+#address-form-component.address-search .component-joker-expired-footer button,
+#address-form-component.address-search
+    .modal-addressbox-confirmation
+    .button-map-submit,
+.component-joker-expired-footer #address-form-component.address-search button,
+.modal-addressbox-confirmation
+    #address-form-component.address-search
+    .button-map-submit {
+    margin-top: 3.5rem;
+}
+@media (min-width: 992px) {
+    #address-form-component.address-search .btn-primary,
+    #address-form-component.address-search .button-primary,
+    #address-form-component.address-search
+        .component-joker-expired-footer
+        button,
+    #address-form-component.address-search
+        .modal-addressbox-confirmation
+        .button-map-submit,
+    .component-joker-expired-footer
+        #address-form-component.address-search
+        button,
+    .modal-addressbox-confirmation
+        #address-form-component.address-search
+        .button-map-submit {
+        margin-top: 0;
+    }
+}
+#address-form-component.address-saved .btn-primary,
+#address-form-component.address-saved .button-primary,
+#address-form-component.address-saved .component-joker-expired-footer button,
+#address-form-component.address-saved
+    .modal-addressbox-confirmation
+    .button-map-submit,
+.component-joker-expired-footer #address-form-component.address-saved button,
+.modal-addressbox-confirmation
+    #address-form-component.address-saved
+    .button-map-submit {
+    margin-top: 1.5rem;
+}
+@media (min-width: 992px) {
+    #address-form-component.address-saved .btn-primary,
+    #address-form-component.address-saved .button-primary,
+    #address-form-component.address-saved
+        .component-joker-expired-footer
+        button,
+    #address-form-component.address-saved
+        .modal-addressbox-confirmation
+        .button-map-submit,
+    .component-joker-expired-footer
+        #address-form-component.address-saved
+        button,
+    .modal-addressbox-confirmation
+        #address-form-component.address-saved
+        .button-map-submit {
+        margin-top: 0;
+    }
+}
+.logged-in #address-form-component .btn-secondary,
+.logged-in
+    #address-form-component
+    .react-autosuggest__suggestion:last-child
+    span,
+.react-autosuggest__suggestion:last-child
+    .logged-in
+    #address-form-component
+    span,
+.react-autosuggest__suggestion:last-child
+    body:not(.page-homepage):not(.page-landing):not(.page-cuisine-landing)
+    #address-form-component
+    span,
+body:not(.page-homepage):not(.page-landing):not(.page-cuisine-landing)
+    #address-form-component
+    .btn-secondary,
+body:not(.page-homepage):not(.page-landing):not(.page-cuisine-landing)
+    #address-form-component
+    .react-autosuggest__suggestion:last-child
+    span {
+    display: none !important;
+}
+.component-joker-expired-footer .logged-out #address-form-component button,
+.logged-out #address-form-component .btn-primary,
+.logged-out #address-form-component .button-primary,
+.logged-out #address-form-component .component-joker-expired-footer button,
+.logged-out
+    #address-form-component
+    .modal-addressbox-confirmation
+    .button-map-submit,
+.modal-addressbox-confirmation
+    .logged-out
+    #address-form-component
+    .button-map-submit {
+    margin-top: 1.5rem;
+}
+@media (min-width: 992px) {
+    .component-joker-expired-footer .logged-out #address-form-component button,
+    .logged-out #address-form-component .btn-primary,
+    .logged-out #address-form-component .button-primary,
+    .logged-out #address-form-component .component-joker-expired-footer button,
+    .logged-out
+        #address-form-component
+        .modal-addressbox-confirmation
+        .button-map-submit,
+    .modal-addressbox-confirmation
+        .logged-out
+        #address-form-component
+        .button-map-submit {
+        margin-top: 0;
+    }
+}
+.address-form-component-search-help {
+    display: none;
+}
+#address-form-component.address-search.user-address-empty .btn-primary,
+#address-form-component.address-search.user-address-empty .button-primary,
+#address-form-component.address-search.user-address-empty
+    .component-joker-expired-footer
+    button,
+#address-form-component.address-search.user-address-empty
+    .modal-addressbox-confirmation
+    .button-map-submit,
+.component-joker-expired-footer
+    #address-form-component.address-search.user-address-empty
+    button,
+.modal-addressbox-confirmation
+    #address-form-component.address-search.user-address-empty
+    .button-map-submit {
+    margin-top: 3.5rem;
+}
+@media (min-width: 992px) {
+    #address-form-component.address-search.user-address-empty .btn-primary,
+    #address-form-component.address-search.user-address-empty .button-primary,
+    #address-form-component.address-search.user-address-empty
+        .component-joker-expired-footer
+        button,
+    #address-form-component.address-search.user-address-empty
+        .modal-addressbox-confirmation
+        .button-map-submit,
+    .component-joker-expired-footer
+        #address-form-component.address-search.user-address-empty
+        button,
+    .modal-addressbox-confirmation
+        #address-form-component.address-search.user-address-empty
+        .button-map-submit {
+        margin-top: 0;
+    }
+}
+.address-search.user-address-empty .address-form-component-search-help {
+    display: block;
+}
+.address-saved .address-form-component-search-input {
+    cursor: pointer;
+}
+.address-saved .address-form-component-clear-btn {
+    display: none;
+}
+.address-form-component-list-arrow i {
+    transform: rotate(0deg);
+    transition: transform 0.1s ease-in-out;
+}
+.address-form-component-list-open .address-form-component-list-arrow i {
+    transform: rotate(180deg);
+    transition: transform 0.1s ease-in-out;
+}
+.address-saved .address-form-component-back-to-saved,
+.address-saved .address-form-component-list-item-manual-address {
+    display: none;
+}
+.address-saved .address-form-component-search-input {
+    caret-color: transparent;
+}
+@media (max-width: 767.98px) {
+    .modal-address-form
+        .address-search
+        .address-form-component-list-item[data-pos="3"],
+    .modal-address-form
+        .address-search
+        .address-form-component-list-item[data-pos="4"],
+    .modal-address-form
+        .address-search
+        .address-form-component-list-item[data-pos="5"] {
+        display: none !important;
+    }
+}
+.address-form-component-outer {
+    border: 1px solid #ebebeb;
+}
+#address-form-component.has-error .address-form-component-outer {
+    border: 2px solid #ffc200;
+}
+#address-form-component .alert,
+#address-form-component .cart-products-in-shortage,
+#address-form-component .help-block.form-error,
+#address-form-component .paymentmethod .messages,
+.paymentmethod #address-form-component .messages {
+    display: none;
+}
+@media (min-width: 992px) {
+    #address-form-component.has-error .alert,
+    #address-form-component.has-error .cart-products-in-shortage,
+    #address-form-component.has-error .help-block.form-error,
+    #address-form-component.has-error .paymentmethod .messages,
+    .paymentmethod #address-form-component.has-error .messages {
+        display: block;
+    }
+}
+.orderBtnColor {
+    color: #212529;
+    background-color: #ffc200;
+    border-color: #ffc200;
+}
+#check {
+    color: yellow;
+}
